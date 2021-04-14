@@ -13,7 +13,7 @@ header {
   /*esto es para el div del header*/
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 10%;
 }
 #div-header img {
   display: flex;
@@ -23,7 +23,7 @@ header {
 }
 .button-try-free {
   /*class del Boton*/
-  margin: 20px 20% 20px 30%;
+  margin: 1% 20% 0% 30%;
 }
 .button-try-free button {
   width: 250%;
@@ -51,7 +51,7 @@ header {
 .div-text1 button {
   background-color: rgb(255, 146, 228);
   margin: 20px auto;
-  width: 300px;
+  width: 20rem;
   height: 3rem;
   border-radius: 15px;
   border-style: none;
@@ -81,7 +81,7 @@ footer {
   background-color: rgb(13, 34, 39);
   margin-top: 100px;
   position: relative;
-  height: 250px;
+  height: 25%;
 }
 
 .card-footer {
@@ -123,6 +123,7 @@ footer {
   width: 30%;
   display: flex;
   margin: 50px auto;
+  align-items: center;
 }
 .list-1 ul {
   margin-top: 50px;
@@ -150,4 +151,48 @@ footer {
 a {
   text-decoration: none;
   color: #fff;
+}
+
+/* media querys para tablets y phone*/
+@media only screen and (max-width: 520px) {
+  #div-header img {
+    width: 35%;
+    height: 100%;
+  }
+  .button-try-free {
+    margin: 5% 20% 0% 30%;
+  }
+  .button-try-free button {
+    width: 200%;
+    height: 150%;
+  }
+  .h2-header {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10%;
+  }
+  .div-text1 p {
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* .section {
+    display: flex;
+    flex-direction: column;
+  }*/
+  .section1 {
+    flex-direction: column;
+    margin-top: 30%;
+  }
+  .div-text1 button {
+    width: 12rem;
+  }
+  .div-image1 img {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 10% auto;
+  }
+  .card {
+    flex-direction: column-reverse;
+  }
 }

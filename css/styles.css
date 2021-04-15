@@ -9,6 +9,12 @@ header {
   background-image: url("../images/bg-hero-desktop.svg");
   background-color: rgb(192, 240, 252);
 }
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 #div-header {
   /*esto es para el div del header*/
   display: flex;
@@ -167,13 +173,11 @@ a {
     height: 150%;
   }
   .h2-header {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 10%;
   }
   .div-text1 p {
     text-align: center;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
   /* .section {
     display: flex;
@@ -194,5 +198,12 @@ a {
   }
   .card {
     flex-direction: column-reverse;
+  }
+  .card p {
+    margin: 12% 10%;
+    text-align: center;
+    color: gray;
+  }
+  footer {
   }
 }
